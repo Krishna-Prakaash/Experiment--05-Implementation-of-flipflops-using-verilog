@@ -104,8 +104,12 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
-/* write all the steps invloved */
+### Procedure:
+1.Open Quartus II and select new project and choose the file location.
+2.Module Declaration. Module should have the file name.
+3.Declare Inputs and outputs.
+4.Use assign declaration and wire to define the functionality of logic circuits. 
+5.End the program with endmodule. 6.Run the program and choose RTL viewer to get RTL realization.
 
 
 
@@ -188,7 +192,7 @@ endmodule
 
 ## TIMING DIGRAMS FOR FLIP FLOPS 
 ### SR FLIP FLOP:
-![OUTPUT-05](IMG-5.PNG)
+![OUTPUT-05](IMG-05.PNG)
 ### D FLIP FLOP:
 ![OUTPUT-06](IMG-06.PNG)
 ### JK FLIP FLOP:
